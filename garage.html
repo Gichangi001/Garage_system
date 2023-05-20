@@ -1,0 +1,60 @@
+<html>
+<body bgcolor="kambana"> 
+<form action="work.php" method="post"> 
+    <h1><i><center>Gichangi GARAGE LTD</center></i></h1>
+    <fieldset>
+    <legend><b><i>Customer Service Form</i></b></legend>
+<p>Client Name <input type="text" name="clientname"></p>
+<p>Phone Number <input type="phone number" name="phoneno"></p>
+
+<label for="gender">Gender 
+<div>
+<label for-"male"><input type="radio" name="gender" value="M" id="male">Male</label>
+<label for-"female"><input type="radio" name="gender" value="F" id="female">Female</label>
+<label for-"male"><input type="radio" name="gender" value="O" id="others">Others</label>
+</div>
+</label><br>
+
+<label>Car Type</label>
+<select name="car">
+<option>Suv</option>
+<option>Van</option>
+<option>Jdm</option>
+<option>Sports Car</option>
+<option>Hatchback</option>
+<option>Convertible</option>
+<option>Station Wagon</option>
+</select><br><br>
+
+<label>Service Type</label>
+<select name="service">
+<option>Repair</option>
+<option>Puncture</option>
+<option>Oil change</option>
+<option>Body service</option>
+<option>Tinting</option>
+<option>Modification</option>
+<option>Other</option>
+</select>
+<p> Service Type
+    <label for="description">description </label>
+    <textarea rows="5" cols="29" name="description" id="description"></textarea>
+    </p>
+
+<label for="Transport">Transport
+<div>
+<label for="pickup"><input type="radio" name="transport" value="Pickup" id="Pickup">Pickup</label>
+<label for="delivery"><input type="radio" name="transport" value="Delivery" id="Delivery">Delivery</label>
+
+</div>
+</label>
+
+    <p>Price<input type="plain number" name="price"></p>
+    <p> Terms and Conditions<input type="checkbox" name="checkbox" value="Agreed"></p>
+    </fieldset>
+<br>
+<input type="Submit"><b>
+<input type="Reset">
+
+</body>
+</html>
